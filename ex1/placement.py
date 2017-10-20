@@ -74,6 +74,8 @@ plt.tight_layout()
 plt.xlim(0, 4)
 plt.ylim(0, 4)
 plt.axis('equal')
+ax = plt.gca()
+ax.set_axisbelow(True)
 #plt.show()
 
 # Save in pdf
