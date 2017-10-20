@@ -1,0 +1,60 @@
+\documentclass[a4paper]{article}
+%\usepackage{amsfonts}
+\usepackage{amsmath}
+%\usepackage{amsthm}
+\usepackage[utf8]{inputenc}
+%\usepackage{hyperref}
+%\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{subfig}
+
+\title{Exercises on physical design}
+\author{Rodrigo Arias Mallo}
+\date{\today}
+
+\newcommand*\mat[1]{ \begin{pmatrix} #1 \end{pmatrix}}
+\newcommand*\arr[1]{ \begin{bmatrix} #1 \end{bmatrix}}
+\newcommand*\V[1]{ \boldsymbol{#1}}
+
+\begin{document}
+\maketitle
+
+\section{Quadratic placement}
+
+% A = [[ 3 -1 -1  0]
+%  [-1  3  0 -1]
+%  [-1  0  2  0]
+%  [ 0 -1  0  2]]
+% bx = [ 2.  0.  4.  4.]
+% by = [ 0.  4.  3.  3.]
+% X = [ 2.28571429  1.71428571  3.14285714  2.85714286]
+% Y = [ 1.76190476  2.9047619   2.38095238  2.95238095]
+
+By computing the Laplacian matrix of the graph, and removing the rows and 
+columns of the fixed cells, we get the matrix $A$ used in the linear equation 
+system.
+%
+$$ A = \mat{
+	 3 & -1 & -1 &  0 \\
+	-1 &  3 &  0 & -1 \\
+	-1 &  0 &  2 &  0 \\
+	 0 & -1 &  0 &  2}$$
+%
+The right hand side for $x$ is $b^x = \mat{2 & 0 & 4 & 4}^T$ and for $y$ is $b^y 
+= \mat{0 & 4 & 3 & 3}^T$, so we can solve now the two systems: $AX = b^x$ and 
+$AY = b^y$ and obtain the coordinates of the non-fixed cells.
+%
+$$ X = \mat{2.29 & 1.71 & 3.14 & 2.86}^T,\quad
+Y = \mat{1.76 & 2.90 & 2.38 & 2.95}^T $$
+%
+The graph can be plotted now, where the black nodes are the fixed ones 
+$\{u,v,w\}$ while the gray nodes are the non-fixed cells $\{a,b,c,d\}$. For 
+details see the python script \texttt{placement.py}.
+%
+\begin{center}
+\includegraphics[width=.7\textwidth]{graph.pdf}
+\end{center}
+%
+\section{Channel routing}
+
+\end{document}

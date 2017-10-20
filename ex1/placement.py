@@ -50,6 +50,9 @@ An = A[RN,:][:,RN]
 X = np.linalg.solve(An, bx)
 Y = np.linalg.solve(An, by)
 
+print('A = {}'.format(An))
+print('bx = {}'.format(bx))
+print('by = {}'.format(by))
 print('X = {}'.format(X))
 print('Y = {}'.format(Y))
 
