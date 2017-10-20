@@ -63,12 +63,17 @@ for i in range(len(NON_FIXED)):
 nodelist = NON_FIXED + FIXED
 node_color = ['darkgrey'] * len(NON_FIXED) + ['black'] * len(FIXED)
 
+plt.figure(figsize=(4, 4))
+
 # Plot the graph with the node positions and corresponding colors
 nx.draw_networkx(g, pos, edge_color='black', node_color=node_color,
 	font_color='white', width=2, with_labels = True)
 
 plt.grid()
 plt.tight_layout()
+plt.xlim(0, 4)
+plt.ylim(0, 4)
+plt.axis('equal')
 #plt.show()
 
 # Save in pdf
