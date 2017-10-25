@@ -10,7 +10,7 @@ NON_FIXED_EDGES = 'ab ac bd'
 FIXED_EDGES = 'ub vc vd wa'
 
 # Output graph
-OUT_FILE = 'graph.pdf'
+OUT_FILE = 'placement.pdf'
 
 #----------------------------------------------------------------------
 

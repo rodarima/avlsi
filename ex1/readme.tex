@@ -52,9 +52,43 @@ $\{u,v,w\}$ while the gray nodes are the non-fixed cells $\{a,b,c,d\}$. For
 details see the python script \texttt{placement.py}.
 %
 \begin{center}
-\includegraphics[width=.7\textwidth]{graph.pdf}
+\includegraphics[width=.7\textwidth]{placement.pdf}
 \end{center}
 %
 \section{Channel routing}
+
+The vertical graph can be computed from the two vectors TOP and BOT.
+%
+\begin{center}
+\includegraphics[width=.5\textwidth]{vertical.pdf}
+\end{center}
+%
+As there are no loops, no conflicts are detected, and the graph corresponds with 
+the vertical constraint graph with net splitting. The zone representation can be 
+computed by first connecting the pins endpoints.
+%
+\begin{center}
+\includegraphics[width=.5\textwidth]{zone.pdf}
+\end{center}
+%
+The set of maximal nets are %
+$S(c) = \{A, B, C, D\}$, %
+$S(d) = \{A,B,D,E\}$, %
+$S(e)= \{B,D,E,F\}$, %
+$S(f)= \{B,E,F,K\}$, %
+$S(h)= \{E,F,G,J,K\}$ and %
+$S(i)= \{F,G,H,J,K\}$. %
+From which we can finally obtain the zone representation.
+%
+\begin{center}
+\includegraphics[width=.5\textwidth]{zone2.pdf}
+\end{center}
+%
+So we find that the minimum number of tracks is 5.
+
+
+
+
+
 
 \end{document}
