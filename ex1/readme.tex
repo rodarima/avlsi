@@ -86,6 +86,29 @@ From which we can finally obtain the zone representation.
 %
 So we find that the minimum number of tracks is 5.
 
+\section{Slicing floorplan}
+
+In order to draw the functions at every node, a number is attached to each H and 
+V node, the graph then becomes
+%
+\begin{center}
+\includegraphics[width=.5\textwidth]{floor-graph.pdf}
+\end{center}
+%
+After computing the shape function at each node, we find that the best size is 
+8 units of height and 6 units of width, in total 48 units of area.
+%
+\begin{center}
+\includegraphics[width=.9\textwidth]{floorplan.pdf}
+\end{center}
+%
+A new floorplan can be obtained which reduces the size to 5 by 9, giving 45 
+units of area. Both can be seen in the following picture.
+%
+\begin{center}
+\includegraphics[width=.4\textwidth]{plans.pdf}
+\end{center}
+%
 
 
 

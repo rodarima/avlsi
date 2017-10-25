@@ -1,0 +1,14 @@
+graph {
+	graph [ordering="out"];
+	V4 -- H3;
+	V4 -- H2;
+
+	H3 -- c;
+	H3 -- e;
+
+	H2 -- b;
+	H2 -- H1;
+
+	H1 -- a;
+	H1 -- d;
+}

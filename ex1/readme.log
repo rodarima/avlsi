@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.9.7)  25 OCT 2017 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.9.7)  26 OCT 2017 01:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -598,12 +598,41 @@ age group included in a single page
 
 pdfTeX warning: pdflatex (file ./zone2.pdf): PDF inclusion: multiple pdfs with 
 page group included in a single page
+>]
+<floor-graph.pdf, id=63, pagebox=cropbox, 387.4475pt x 333.245pt>
+File: floor-graph.pdf Graphic file (type pdf)
+<use floor-graph.pdf>
+Package pdftex.def Info: floor-graph.pdf  used on input line 95. on input line 
+95.
+Package pdftex.def Info: Requested size: 172.5pt x 148.36728pt on input line 95
+.
+<floorplan.pdf, id=64, pagebox=cropbox, 356.22615pt x 177.55579pt>
+File: floorplan.pdf Graphic file (type pdf)
+<use floorplan.pdf>
+Package pdftex.def Info: floorplan.pdf  used on input line 102. on input line 1
+02.
+Package pdftex.def Info: Requested size: 310.4979pt x 154.76486pt on input line
+ 102.
+<plans.pdf, id=65, pagebox=cropbox, 96.78206pt x 74.19768pt>
+File: plans.pdf Graphic file (type pdf)
+<use plans.pdf>
+Package pdftex.def Info: plans.pdf  used on input line 109. on input line 109.
+Package pdftex.def Info: Requested size: 137.9979pt x 105.79616pt on input line
+ 109.
+ [3 <./floor-graph.pdf> <./floorplan.pdf
+
+pdfTeX warning: pdflatex (file ./floorplan.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
+> <./plans.pdf
+
+pdfTeX warning: pdflatex (file ./plans.pdf): PDF inclusion: multiple pdfs with 
+page group included in a single page
 >] (./readme.aux) ) 
 Here is how much of TeX's memory you used:
- 3580 strings out of 492990
- 51288 string characters out of 6138689
+ 3595 strings out of 492990
+ 51602 string characters out of 6138689
  115934 words of memory out of 5000000
- 7101 multiletter control sequences out of 15000+600000
+ 7113 multiletter control sequences out of 15000+600000
  8576 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,7n,42p,273b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -615,10 +644,10 @@ lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
 r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on readme.pdf (2 pages, 131439 bytes).
+Output written on readme.pdf (3 pages, 160394 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 171 PDF objects out of 1000 (max. 8388607)
+ 115 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

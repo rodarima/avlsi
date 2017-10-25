@@ -197,13 +197,6 @@
        y="260.71429" />
     <rect
        style="fill:#cccccc;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       id="rect5128"
-       width="13.229166"
-       height="5.2916665"
-       x="8.6934519"
-       y="268.65179" />
-    <rect
-       style="fill:#cccccc;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect5130"
        width="60.854168"
        height="5.2916617"
@@ -281,17 +274,6 @@
          x="85.021721"
          y="264.56284"
          style="stroke-width:0.26458332px">G</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:3.96875px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="13.316945"
-       y="272.50034"
-       id="text5158"><tspan
-         sodipodi:role="line"
-         id="tspan5156"
-         x="13.316945"
-         y="272.50034"
-         style="stroke-width:0.26458332px">C</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.96875px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
