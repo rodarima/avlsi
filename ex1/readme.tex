@@ -72,7 +72,6 @@ computed by first connecting the pins endpoints.
 \end{center}
 %
 The set of maximal nets are %
-$S(c) = \{A, B, C, D\}$, %
 $S(d) = \{A,B,D,E\}$, %
 $S(e)= \{B,D,E,F\}$, %
 $S(f)= \{B,E,F,K\}$, %
@@ -84,7 +83,28 @@ From which we can finally obtain the zone representation.
 \includegraphics[width=.5\textwidth]{zone2.pdf}
 \end{center}
 %
-So we find that the minimum number of tracks is 5.
+So we find that the minimum number of tracks is 5. However, if we split the 
+nets, the net $E$ becomes $E_1$ and $E_2$, and the vertical constraint graph
+%
+\begin{center}
+\includegraphics[width=.6\textwidth]{vertical-split.pdf}
+\end{center}
+%
+But the same number of minimum tracks is obtained, as can be seen in the zone 
+representation:
+%
+\begin{center}
+\includegraphics[width=.5\textwidth]{zone-repr-split.pdf}
+\end{center}
+%
+After running the Dogleg Left-Edge algorithm, the routed channel is drawn as 
+following.
+%
+\begin{center}
+\includegraphics[width=.4\textwidth]{route2.pdf}
+\end{center}
+%
+\newpage
 
 \section{Slicing floorplan}
 

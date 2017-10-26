@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.9.7)  26 OCT 2017 01:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.9.7)  26 OCT 2017 05:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -572,23 +572,12 @@ File: zone.pdf Graphic file (type pdf)
 Package pdftex.def Info: zone.pdf  used on input line 71. on input line 71.
 Package pdftex.def Info: Requested size: 172.5pt x 131.91278pt on input line 71
 .
-
-Overfull \hbox (28.89764pt too wide) in paragraph at lines 74--83
-\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 B; D; E; F\OMS/cmsy/m/n/10 g$\OT1/cmr/m/n/10
- , $\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 ) = \O
-MS/cmsy/m/n/10 f\OML/cmm/m/it/10 B; E; F; K\OMS/cmsy/m/n/10 g$\OT1/cmr/m/n/10 ,
- $\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 h\OT1/cmr/m/n/10 ) = \OMS
-/cmsy/m/n/10 f\OML/cmm/m/it/10 E; F; G; J; K\OMS/cmsy/m/n/10 g$ \OT1/cmr/m/n/10
- and $\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 ) = 
-\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 F; G; H; J; K\OMS/cmsy/m/n/10 g$\OT1/cmr/m/n
-/10 .
- []
-
-<zone2.pdf, id=37, pagebox=cropbox, 284.12212pt x 150.56252pt>
+<zone2.pdf, id=37, pagebox=cropbox, 236.26474pt x 150.56252pt>
 File: zone2.pdf Graphic file (type pdf)
 <use zone2.pdf>
-Package pdftex.def Info: zone2.pdf  used on input line 84. on input line 84.
-Package pdftex.def Info: Requested size: 172.5pt x 91.41338pt on input line 84.
+Package pdftex.def Info: zone2.pdf  used on input line 83. on input line 83.
+Package pdftex.def Info: Requested size: 172.5pt x 109.93268pt on input line 83
+.
 
 [2 <./vertical.pdf> <./zone.pdf
 
@@ -599,27 +588,57 @@ age group included in a single page
 pdfTeX warning: pdflatex (file ./zone2.pdf): PDF inclusion: multiple pdfs with 
 page group included in a single page
 >]
-<floor-graph.pdf, id=63, pagebox=cropbox, 387.4475pt x 333.245pt>
+<vertical-split.pdf, id=63, pagebox=cropbox, 376.40625pt x 333.245pt>
+File: vertical-split.pdf Graphic file (type pdf)
+<use vertical-split.pdf>
+Package pdftex.def Info: vertical-split.pdf  used on input line 90. on input li
+ne 90.
+Package pdftex.def Info: Requested size: 207.0021pt x 183.27005pt on input line
+ 90.
+<zone-repr-split.pdf, id=64, pagebox=cropbox, 281.89207pt x 150.56253pt>
+File: zone-repr-split.pdf Graphic file (type pdf)
+<use zone-repr-split.pdf>
+Package pdftex.def Info: zone-repr-split.pdf  used on input line 97. on input l
+ine 97.
+Package pdftex.def Info: Requested size: 172.5pt x 92.13477pt on input line 97.
+
+<route2.pdf, id=65, pagebox=cropbox, 272.15112pt x 214.88763pt>
+File: route2.pdf Graphic file (type pdf)
+<use route2.pdf>
+Package pdftex.def Info: route2.pdf  used on input line 104. on input line 104.
+
+Package pdftex.def Info: Requested size: 137.9979pt x 108.96497pt on input line
+ 104.
+ [3 <./vertical-split.pdf> <./zone-repr-split.pdf
+
+pdfTeX warning: pdflatex (file ./zone-repr-split.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+> <./route2.pdf
+
+pdfTeX warning: pdflatex (file ./route2.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+>]
+<floor-graph.pdf, id=92, pagebox=cropbox, 387.4475pt x 333.245pt>
 File: floor-graph.pdf Graphic file (type pdf)
 <use floor-graph.pdf>
-Package pdftex.def Info: floor-graph.pdf  used on input line 95. on input line 
-95.
-Package pdftex.def Info: Requested size: 172.5pt x 148.36728pt on input line 95
-.
-<floorplan.pdf, id=64, pagebox=cropbox, 356.22615pt x 177.55579pt>
+Package pdftex.def Info: floor-graph.pdf  used on input line 115. on input line
+ 115.
+Package pdftex.def Info: Requested size: 172.5pt x 148.36728pt on input line 11
+5.
+<floorplan.pdf, id=93, pagebox=cropbox, 356.22615pt x 177.55579pt>
 File: floorplan.pdf Graphic file (type pdf)
 <use floorplan.pdf>
-Package pdftex.def Info: floorplan.pdf  used on input line 102. on input line 1
-02.
+Package pdftex.def Info: floorplan.pdf  used on input line 122. on input line 1
+22.
 Package pdftex.def Info: Requested size: 310.4979pt x 154.76486pt on input line
- 102.
-<plans.pdf, id=65, pagebox=cropbox, 96.78206pt x 74.19768pt>
+ 122.
+<plans.pdf, id=94, pagebox=cropbox, 96.78206pt x 74.19768pt>
 File: plans.pdf Graphic file (type pdf)
 <use plans.pdf>
-Package pdftex.def Info: plans.pdf  used on input line 109. on input line 109.
+Package pdftex.def Info: plans.pdf  used on input line 129. on input line 129.
 Package pdftex.def Info: Requested size: 137.9979pt x 105.79616pt on input line
- 109.
- [3 <./floor-graph.pdf> <./floorplan.pdf
+ 129.
+ [4 <./floor-graph.pdf> <./floorplan.pdf
 
 pdfTeX warning: pdflatex (file ./floorplan.pdf): PDF inclusion: multiple pdfs w
 ith page group included in a single page
@@ -629,10 +648,10 @@ pdfTeX warning: pdflatex (file ./plans.pdf): PDF inclusion: multiple pdfs with
 page group included in a single page
 >] (./readme.aux) ) 
 Here is how much of TeX's memory you used:
- 3595 strings out of 492990
- 51602 string characters out of 6138689
+ 3610 strings out of 492990
+ 51966 string characters out of 6138689
  115934 words of memory out of 5000000
- 7113 multiletter control sequences out of 15000+600000
+ 7125 multiletter control sequences out of 15000+600000
  8576 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,7n,42p,273b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -642,12 +661,13 @@ re/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on readme.pdf (3 pages, 160394 bytes).
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmtt10.pfb>
+Output written on readme.pdf (4 pages, 194310 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
+ 203 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
