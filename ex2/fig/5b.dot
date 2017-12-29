@@ -1,0 +1,33 @@
+digraph {
+	rankdir = LR;
+	//splines="line";
+	//splines="ortho";
+	node [shape=box];
+	//edge [dir=none];
+	subgraph cluster_0 {
+		a b c d e;
+	}
+	subgraph cluster_1 {
+		style=invis
+		fx [label="x = yc + yd' + a'b' + a'd'"];
+		fy [label="y = a + b"];
+		fz [label="z = a'c' + a'd' + b'c' + b'd' + e"];
+		fu [label="u = a'c + a'd + b'd + e'"];
+	}
+	subgraph cluster_2 {
+		x, y, z, u;
+	}
+
+	{a,b,c,d,fy} 	-> fx:w;
+	{a,b} 		-> fy:w;
+	{a,b,c,d,e} 	-> fz:w;
+	{a,b,c,d,e} 	-> fu:w;
+
+	fx -> x;
+	fy -> y;
+	fz -> z;
+	fu -> u;
+
+	{rank=same; a, b, c, d, e}
+	{rank=same; x, y, z, u}
+}
