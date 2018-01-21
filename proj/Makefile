@@ -1,7 +1,13 @@
-all: slides.pdf
+PDFS=report.pdf slides.pdf
 
-slides.pdf: slides.tex
-	latexmk -pdf slides.tex
+all: $(PDFS)
+
+fig/A/laplacian.pdf: plot.py
+	python plot.py
+
+%.pdf: %.tex fig/A/laplacian.pdf
+	latexmk -pdf $<
 	@kill -HUP $$(pidof mupdf)
+
 clean:
-	rm -f {pdf,aux,log}
+	rm -f ${PDFS} *.{aux,log}
