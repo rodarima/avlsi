@@ -7,3 +7,6 @@ doc/
 *.fls
 *.log
 *.out
+*.nav
+*.snm
+*.toc
