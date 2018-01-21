@@ -5,6 +5,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 
+\graphicspath{{fig/}}
+
 \setbeamertemplate{navigation symbols}{}%remove navigation symbols
 \setbeamertemplate{footline}[frame number]
 \setbeamerfont{page number in head/foot}{size=\normalsize}
@@ -181,7 +183,7 @@ In order to test the methods, some graphs were generated
 
 \begin{frame}{Small graph}
 \begin{center}
-\includegraphics[scale=0.5]{G3-laplacian.pdf}
+\includegraphics[scale=0.5]{A/laplacian.pdf}
 \end{center}
 Using the method 1, the Laplacian matrix $L$.
 
@@ -190,7 +192,7 @@ Wire-length: 8.82
 
 \begin{frame}{Small graph}
 \begin{center}
-\includegraphics[scale=0.5]{G3-norm.pdf}
+\includegraphics[scale=0.5]{A/norm.pdf}
 \end{center}
 Using the method 2, the normalized Laplacian matrix $\mathcal L$.
 
@@ -199,7 +201,7 @@ Wire-length: 12.87
 
 \begin{frame}{Small graph}
 \begin{center}
-\includegraphics[scale=0.5]{G3-spring.pdf}
+\includegraphics[scale=0.5]{A/spring.pdf}
 \end{center}
 Using the directed force method (for comparison).
 
@@ -208,7 +210,7 @@ Wire-length: 9.40
 
 \begin{frame}{ER graph}
 \begin{center}
-\includegraphics[scale=0.5]{ER-laplacian.pdf}
+\includegraphics[scale=0.5]{B/laplacian.pdf}
 \end{center}
 Using the method 1, the Laplacian matrix $L$.
 
@@ -217,7 +219,7 @@ Wire-length: 417.97
 
 \begin{frame}{ER graph}
 \begin{center}
-\includegraphics[scale=0.5]{ER-norm.pdf}
+\includegraphics[scale=0.5]{B/norm.pdf}
 \end{center}
 Using the method 2, the normalized Laplacian matrix $\mathcal L$.
 
@@ -226,7 +228,7 @@ Wire-length: 722.86
 
 \begin{frame}{ER graph}
 \begin{center}
-\includegraphics[scale=0.5]{ER-spring.pdf}
+\includegraphics[scale=0.5]{B/spring.pdf}
 \end{center}
 Using the spring method (for comparison).
 
@@ -242,7 +244,7 @@ Generated using Yosys \cite{wolf} from the Verilog file \texttt{uart\_trx.v}.
 
 \begin{frame}{TX graph}
 \begin{center}
-\includegraphics[scale=0.5]{TX-laplacian.pdf}
+\includegraphics[scale=0.5]{C/laplacian.pdf}
 \end{center}
 Using the method 1, the Laplacian matrix $L$.
 
@@ -251,7 +253,7 @@ Wire-length: 78.78
 
 \begin{frame}{TX graph}
 \begin{center}
-\includegraphics[scale=0.5]{TX-norm.pdf}
+\includegraphics[scale=0.5]{C/norm.pdf}
 \end{center}
 Using the method 2, the normalized Laplacian matrix $\mathcal L$.
 
@@ -260,7 +262,7 @@ Wire-length: 733.78
 
 \begin{frame}{TX graph}
 \begin{center}
-\includegraphics[scale=0.5]{TX-spring.pdf}
+\includegraphics[scale=0.5]{C/spring.pdf}
 \end{center}
 Using the spring method (for comparison).
 
@@ -293,7 +295,6 @@ sparse.
 \end{frame}
 
 \begin{frame}{References}
-
 
 \begin{thebibliography}{9}
 
